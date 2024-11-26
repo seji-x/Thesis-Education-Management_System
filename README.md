@@ -1,14 +1,26 @@
-# Hệ Thống Quản Lý Lớp Học và Điểm Số Học Sinh
+# 📚 Hệ Thống Quản Lý Lớp Học và Điểm Số Học Sinh
+
+## 🖋️ Tác Giả
+Dự án được thực hiện bởi **Nguyễn Thái Dương**, sinh viên lớp **20CT2**, mã số sinh viên **2051220053** tại **Đại học Kiến trúc Đà Nẵng**.
+
+---
 
 ## 📜 Giới Thiệu
+Hệ thống **Quản lý lớp học và điểm số học sinh** là một ứng dụng web nhằm tối ưu hóa quy trình quản lý giáo dục, hỗ trợ quản lý thông tin học sinh, giáo viên, lớp học, môn học, điểm số và thời khoá biểu.
 
-Hệ thống **Quản lý lớp học và điểm số học sinh** là một ứng dụng web nhằm tối ưu hóa quy trình quản lý giáo dục trong trường học. Dự án được xây dựng với **Django** cho phần backend và **Next.js** cho phần frontend, giúp quản lý thông tin học sinh, giáo viên, lớp học, môn học, điểm số và thời khoá biểu một cách hiệu quả.
+Dự án được xây dựng với:
+- **Backend:** Django (Python)
+- **Frontend:** Next.js (React)
+- **Cơ sở dữ liệu:** PostgreSQL
 
-Các tính năng chính của hệ thống:
-- Quản lý thông tin người dùng (học sinh, giáo viên, admin).
-- Quản lý điểm số học sinh và các thông tin học tập.
-- Quản lý thời khoá biểu và các môn học.
-- Hệ thống thông báo tức thời giữa giáo viên, học sinh và quản trị viên.
+### 🌟 Tính năng nổi bật:
+- **Quản lý thông tin người dùng:** Admin, giáo viên, học sinh.
+- **Quản lý điểm số:** Nhập, xem và chỉnh sửa điểm.
+- **Thời khoá biểu:** Xem lịch học và giảng dạy.
+- **Thông báo tức thời:** Gửi thông báo giữa admin, giáo viên, học sinh.
+- **Tìm kiếm nhanh:** Lớp học, môn học, người dùng.
+
+---
 
 ## 🚀 Các Nhánh của Repository
 
