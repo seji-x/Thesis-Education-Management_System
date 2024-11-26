@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  postgres_duong:
+    image: postgres
+    container_name: postgres_duong
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: education_system
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    image: duong2:latest
+    build: .
+    ports:
+      - '8000:8000'
+    depends_on:
+      - postgres_duong  # Ensure backend starts after PostgreSQL
+    volumes:
+      - ./media:/app/media  # Mount the media directory to persist media files
+    environment:
+      DJANGO_SETTINGS_MODULE: core.settings  # Replace with your project name
+
+volumes:
+  postgres_data:
