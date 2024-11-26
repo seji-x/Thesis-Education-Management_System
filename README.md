@@ -18,7 +18,7 @@ Dự án này có hai nhánh chính:
 
 Nhánh này chứa phần **backend** của hệ thống, được xây dựng bằng **Django**. Backend xử lý các API, logic nghiệp vụ và quản lý cơ sở dữ liệu.
 
-- **Liên kết:** [Backend Repository](https://github.com/seji-x/Thesis-Education-Management_System/tree/backend)
+- **Liên kết:** [Backend Repository]([https://github.com/seji-x/Thesis-Education-Management_System/tree/backend](https://github.com/seji-x/Thesis-Education-Management_System/tree/Backend?tab=readme-ov-file))
 
 ### 2. **Frontend (Next.js)**
 
