@@ -54,7 +54,7 @@ Nhánh này chứa phần **frontend** của hệ thống, được xây dựng 
 
 ### 1. **Cài Đặt Backend (Django)**
 
-#### Bước 1: Clone Repository
+### Bước 1: Clone Repository
 ```bash
 git clone https://github.com/seji-x/Thesis-Education-Management_System.git
 cd Thesis-Education-Management_System/backend
@@ -69,7 +69,7 @@ Tạo và di chuyển cơ sở dữ liệu (Sử dụng PostgreSQL):
 ```bash
 python manage.py migrate
 ```
-## Bước 4: Tạo Superuser
+### Bước 4: Tạo Superuser
 Tạo tài khoản quản trị viên để truy cập vào phần admin:
 ```bash
 python manage.py createsuperuser
@@ -117,9 +117,9 @@ Bước 2: Truy Cập Ứng Dụng
 Backend: http://localhost:8000
 Frontend: http://localhost:3000
 ```
-📝 Cấu Hình
-Cấu hình môi trường cho Django
-Tạo một file .env trong thư mục gốc của backend với nội dung như sau:
+## 📝 Cấu Hình
+### Cấu hình môi trường cho Django
+### Tạo một file .env trong thư mục gốc của backend với nội dung như sau:
 ```bash
 DEBUG=True
 DB_NAME=your_db_name
@@ -133,14 +133,14 @@ DB_PORT=5432
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 ```
-🧑‍💻 Hướng Dẫn Phát Triển
-1. Chạy Backend và Frontend Song Song
+## 🧑‍💻 Hướng Dẫn Phát Triển
+### 1. Chạy Backend và Frontend Song Song
 Để phát triển một cách hiệu quả, bạn có thể chạy backend và frontend song song. Đảm bảo rằng backend đang chạy tại http://localhost:8000 và frontend tại http://localhost:3000.
 
-2. Cập Nhật API
+### 2. Cập Nhật API
 - **Khi thực hiện thay đổi trong backend, hãy đảm bảo rằng bạn đã cập nhật các API và kiểm tra tính tương thích với frontend.**
 
-3. Chạy Test
+### 3. Chạy Test
 - **Để chạy các bài test trong Django:**
 ```
 python manage.py test
