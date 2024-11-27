@@ -1,7 +1,11 @@
 # 📚 Hệ Thống Quản Lý Lớp Học và Điểm Số Học Sinh
 
 ## 🖋️ Tác Giả
-Dự án được thực hiện bởi **Nguyễn Thái Dương**, sinh viên lớp **20CT2**, mã số sinh viên **2051220053** tại **Đại học Kiến trúc Đà Nẵng**.
+Dự án được thực hiện bởi **Nguyễn Thái Dương**
+
+Sinh viên lớp **20CT2**
+
+mã số sinh viên **2051220053** 
 
 ---
 
