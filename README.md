@@ -42,6 +42,8 @@ Nhánh này chứa phần **frontend** của hệ thống, được xây dựng 
 
 - **Liên kết:** [Frontend Repository](https://github.com/seji-x/Thesis-Education-Management_System/tree/Frontend)
 
+---
+
 ## Công Nghệ Sử Dụng
 
 - **Backend:** Django (Python)
@@ -49,6 +51,8 @@ Nhánh này chứa phần **frontend** của hệ thống, được xây dựng 
 - **Cơ sở dữ liệu:** PostgreSQL
 - **Quản lý mã nguồn:** GitHub
 - **Công cụ phát triển:** Visual Studio Code, Docker (tuỳ chọn)
+
+---
 
 ## Hướng Dẫn Cài Đặt
 
@@ -105,6 +109,7 @@ npm run dev
 - Thời khoá biểu: Giáo viên có thể xem lịch dạy, học sinh có thể xem lịch học của mình.
 - Tìm kiếm: Tính năng tìm kiếm giúp người dùng nhanh chóng tìm kiếm các lớp học, học sinh, giáo viên và môn học.
 
+---
 
 ## Cài Đặt và Triển Khai với Docker (Tuỳ Chọn)
 ### Để chạy dự án với Docker, bạn có thể sử dụng docker-compose để khởi tạo cả frontend và backend trong một môi trường container.
@@ -117,6 +122,9 @@ Bước 2: Truy Cập Ứng Dụng
 Backend: http://localhost:8000
 Frontend: http://localhost:3000
 ```
+
+---
+
 ## Cấu Hình
 ### Cấu hình môi trường cho Django
 ### Tạo một file .env trong thư mục gốc của backend với nội dung như sau:
@@ -133,7 +141,9 @@ DB_PORT=5432
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 ```
-## 🧑‍💻 Hướng Dẫn Phát Triển
+---
+
+## Hướng Dẫn Phát Triển
 ### 1. Chạy Backend và Frontend Song Song
 Để phát triển một cách hiệu quả, bạn có thể chạy backend và frontend song song. Đảm bảo rằng backend đang chạy tại http://localhost:8000 và frontend tại http://localhost:3000.
 
