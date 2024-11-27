@@ -86,7 +86,7 @@ Cài đặt các thư viện Node.js cần thiết:
 ```bash
 npm install
 ```
-###Bước 3: Chạy Ứng Dụng
+### Bước 3: Chạy Ứng Dụng
 Khởi chạy ứng dụng frontend:
 ```bash
 npm run dev
@@ -134,12 +134,14 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api
 Để phát triển một cách hiệu quả, bạn có thể chạy backend và frontend song song. Đảm bảo rằng backend đang chạy tại http://localhost:8000 và frontend tại http://localhost:3000.
 
 2. Cập Nhật API
-Khi thực hiện thay đổi trong backend, hãy đảm bảo rằng bạn đã cập nhật các API và kiểm tra tính tương thích với frontend.
+- **Khi thực hiện thay đổi trong backend, hãy đảm bảo rằng bạn đã cập nhật các API và kiểm tra tính tương thích với frontend.**
 
 3. Chạy Test
-Để chạy các bài test trong Django:
-
+- **Để chạy các bài test trong Django:**
+```
 python manage.py test
-Để chạy các bài test trong Next.js:
-
+```
+- **Để chạy các bài test trong Next.js:**
+```
 npm run test
+```
