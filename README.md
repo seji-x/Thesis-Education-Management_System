@@ -92,7 +92,7 @@ Khởi chạy ứng dụng frontend:
 npm run dev
 ```
 ###Ứng dụng sẽ được chạy tại http://localhost:3000.
-🔧 Các Tính Năng Chính
+- 🔧 Các Tính Năng Chính
 ```
 Quản lý người dùng: Quản trị viên có thể tạo, chỉnh sửa và xoá tài khoản của học sinh, giáo viên và admin.
 Quản lý lớp học: Quản trị viên có thể tạo và chỉnh sửa các lớp học, phân công giáo viên cho các lớp.
