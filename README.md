@@ -128,8 +128,8 @@ DB_PASSWORD=your_db_password
 DB_HOST=localhost
 DB_PORT=5432
 ```
-Cấu hình môi trường cho Next.js
-Tạo một file .env.local trong thư mục frontend với nội dung như sau:
+## Cấu hình môi trường cho Next.js
+### Tạo một file .env.local trong thư mục frontend với nội dung như sau:
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 ```
