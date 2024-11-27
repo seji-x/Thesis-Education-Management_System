@@ -3,9 +3,9 @@
 ## 🖋️ Tác Giả
 Dự án được thực hiện bởi **Nguyễn Thái Dương**
 
-Sinh viên lớp **20CT2**
+Class: **20CT2**
 
-mã số sinh viên **2051220053** 
+ID: **2051220053** 
 
 ---
 
