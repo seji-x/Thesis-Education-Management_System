@@ -95,16 +95,16 @@ Khởi chạy ứng dụng frontend:
 ```bash
 npm run dev
 ```
-###Ứng dụng sẽ được chạy tại http://localhost:3000.
-- 🔧 Các Tính Năng Chính
-```
-Quản lý người dùng: Quản trị viên có thể tạo, chỉnh sửa và xoá tài khoản của học sinh, giáo viên và admin.
-Quản lý lớp học: Quản trị viên có thể tạo và chỉnh sửa các lớp học, phân công giáo viên cho các lớp.
-Quản lý điểm số: Giáo viên có thể nhập điểm cho học sinh, xem và sửa điểm. Học sinh có thể theo dõi điểm của mình.
-Thông báo: Quản trị viên và giáo viên có thể gửi thông báo đến học sinh và các giáo viên khác.
-Thời khoá biểu: Giáo viên có thể xem lịch dạy, học sinh có thể xem lịch học của mình.
-Tìm kiếm: Tính năng tìm kiếm giúp người dùng nhanh chóng tìm kiếm các lớp học, học sinh, giáo viên và môn học.
-```
+### Ứng dụng sẽ được chạy tại http://localhost:3000.
+### 🔧 Các Tính Năng Chính
+
+- Quản lý người dùng: Quản trị viên có thể tạo, chỉnh sửa và xoá tài khoản của học sinh, giáo viên và admin.
+- Quản lý lớp học: Quản trị viên có thể tạo và chỉnh sửa các lớp học, phân công giáo viên cho các lớp.
+- Quản lý điểm số: Giáo viên có thể nhập điểm cho học sinh, xem và sửa điểm. Học sinh có thể theo dõi điểm của mình.
+- Thông báo: Quản trị viên và giáo viên có thể gửi thông báo đến học sinh và các giáo viên khác.
+- Thời khoá biểu: Giáo viên có thể xem lịch dạy, học sinh có thể xem lịch học của mình.
+- Tìm kiếm: Tính năng tìm kiếm giúp người dùng nhanh chóng tìm kiếm các lớp học, học sinh, giáo viên và môn học.
+
 
 📦 Cài Đặt và Triển Khai với Docker (Tuỳ Chọn)
 ## Để chạy dự án với Docker, bạn có thể sử dụng docker-compose để khởi tạo cả frontend và backend trong một môi trường container.
