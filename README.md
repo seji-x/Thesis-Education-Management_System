@@ -1,3 +1,4 @@
+VN
 # 📚 Hệ Thống Quản Lý Lớp Học và Điểm Số Học Sinh
 
 ## Tác Giả
@@ -159,3 +160,185 @@ python manage.py test
 ```
 npm run test
 ```
+### THANK
+
+---
+
+EN
+
+# 📚 Class and Student Management System
+
+## Author
+Project by **Nguyễn Thái Dương**  
+
+Class: **20CT2**  
+ID: **2051220053**
+
+---
+
+## Introduction
+The **Class and Student Management System** is a web application designed to optimize educational management processes. It supports managing information about students, teachers, classes, subjects, grades, and schedules.
+
+The project is built with:
+- **Backend:** Django (Python)
+- **Frontend:** Next.js (React)
+- **Database:** PostgreSQL
+
+### Key Features:
+- **User Management:** Admin, teacher, and student roles.
+- **Grade Management:** Input, view, and edit student grades.
+- **Schedules:** View teaching and learning schedules.
+- **Instant Notifications:** Send announcements between admins, teachers, and students.
+- **Quick Search:** Classes, subjects, and users.
+
+---
+
+## Project Branches
+
+### 1. **Backend (Django)**
+This branch contains the **backend** of the system, built with **Django**. It handles API development, business logic, and database management.  
+
+- **Link:** [Backend Repository](https://github.com/seji-x/Thesis-Education-Management_System/tree/Backend?tab=readme-ov-file)
+
+### 2. **Frontend (Next.js)**
+This branch contains the **frontend** of the system, built with **Next.js** (React). It focuses on user interface design and interacts with the backend through APIs to enhance user experience.  
+
+- **Link:** [Frontend Repository](https://github.com/seji-x/Thesis-Education-Management_System/tree/Frontend)
+
+---
+
+## Technologies Used
+
+- **Backend:** Django (Python)  
+- **Frontend:** Next.js (React)  
+- **Database:** PostgreSQL  
+- **Version Control:** GitHub  
+- **Development Tools:** Visual Studio Code, Docker (optional)  
+
+---
+
+## Installation Guide
+
+### 1. **Install Backend (Django)**
+
+#### Step 1: Clone the Repository
+```bash
+git clone https://github.com/seji-x/Thesis-Education-Management_System.git
+cd Thesis-Education-Management_System/backend
+```
+
+#### Step 2: Install Dependencies
+Install the required Python libraries using pip:
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 3: Configure the Database
+Create and migrate the database (PostgreSQL):
+```bash
+python manage.py migrate
+```
+
+#### Step 4: Create a Superuser
+Set up an admin account to access the admin panel:
+```bash
+python manage.py createsuperuser
+```
+
+#### Step 5: Start the Server
+Run the backend server:
+```bash
+python manage.py runserver
+```
+
+---
+
+### 2. **Install Frontend (Next.js)**
+
+#### Step 1: Clone the Repository
+```bash
+git clone https://github.com/seji-x/Thesis-Education-Management_System.git
+cd Thesis-Education-Management_System/frontend
+```
+
+#### Step 2: Install Dependencies
+Install the required Node.js libraries:
+```bash
+npm install
+```
+
+#### Step 3: Start the Application
+Run the frontend application:
+```bash
+npm run dev
+```
+
+The application will run at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## Deployment with Docker (Optional)
+
+To run the project using Docker, use `docker-compose` to set up both the backend and frontend in a containerized environment.
+
+### Step 1: Build Docker Images for Backend and Frontend
+```bash
+docker-compose up --build
+```
+
+### Step 2: Access the Application
+- **Backend:** [http://localhost:8000](http://localhost:8000)  
+- **Frontend:** [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Configuration
+
+### Backend Environment Configuration for Django
+Create a `.env` file in the root of the backend directory with the following content:
+```bash
+DEBUG=True
+DB_NAME=your_db_name
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_HOST=localhost
+DB_PORT=5432
+```
+
+### Frontend Environment Configuration for Next.js
+Create a `.env.local` file in the frontend directory with the following content:
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+```
+
+---
+
+## Main Features
+
+- **User Management:** Admins can create, edit, and delete accounts for students, teachers, and other admins.  
+- **Class Management:** Admins can create and edit classes and assign teachers to classes.  
+- **Grade Management:** Teachers can input, view, and edit student grades. Students can track their grades.  
+- **Notifications:** Admins and teachers can send announcements to students and other teachers.  
+- **Schedules:** Teachers can view their teaching schedules, and students can view their class schedules.  
+- **Search:** A search feature helps users quickly find classes, students, teachers, and subjects.  
+
+---
+
+## Development Guide
+
+### 1. Run Backend and Frontend Simultaneously
+For efficient development, run the backend at [http://localhost:8000](http://localhost:8000) and the frontend at [http://localhost:3000](http://localhost:3000).
+
+### 2. Update APIs
+Ensure that any backend changes are reflected in the APIs and tested for compatibility with the frontend.
+
+### 3. Run Tests
+- **To run tests in Django:**
+```bash
+python manage.py test
+```
+- **To run tests in Next.js:**
+```bash
+npm run test
+```  
+
