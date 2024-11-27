@@ -103,7 +103,7 @@ Tìm kiếm: Tính năng tìm kiếm giúp người dùng nhanh chóng tìm ki�
 ```
 
 📦 Cài Đặt và Triển Khai với Docker (Tuỳ Chọn)
-Để chạy dự án với Docker, bạn có thể sử dụng docker-compose để khởi tạo cả frontend và backend trong một môi trường container.
+## Để chạy dự án với Docker, bạn có thể sử dụng docker-compose để khởi tạo cả frontend và backend trong một môi trường container.
 Bước 1: Tạo Docker Image cho Backend và Frontend
 ```bash
 docker-compose up --build
