@@ -7,7 +7,7 @@ Dự án được thực hiện bởi **Nguyễn Thái Dương**
 ---
 
 ## Giới Thiệu
-Hệ thống là một ứng dụng web nhằm tối ưu hóa quy trình quản lý giáo dục, hỗ trợ quản lý thông tin học sinh, giáo viên, lớp học, môn học, điểm số và thời khoá biểu.
+Hệ thống là một ứng dụng nhằm tối ưu hóa quy trình quản lý giáo dục, hỗ trợ quản lý thông tin học sinh, giáo viên, lớp học, môn học, điểm số và thời khoá biểu.
 
 Dự án được xây dựng với:
 - **Backend:** Django (Python)
